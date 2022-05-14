@@ -1,0 +1,99 @@
+/*
+* {
+    border: 1px dashed red;
+    min-height: 10px;
+}
+*/
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+
+
+}
+
+.post {
+    margin: auto;
+    display: block;
+    width: 25%;
+
+}
+
+.post-header {
+    background: whitesmoke;
+    display: inline-flex;
+    width:
+        /* 375px */
+        100%;
+}
+
+.post-header p{
+    font-size: 14px ;
+}
+
+.post-header i:first-child {
+    padding-top: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+
+.post-header i:last-child {
+    padding-top: 35px;
+    padding-right: 3px;
+    padding-bottom: 25px;
+    padding-left: 65%;
+}
+
+.post-body {
+    background: whitesmoke;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.post-footer {
+    background: whitesmoke;
+    margin-top: 0px;
+    padding-bottom: 12px;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.post-footer i:first-child {
+    padding-left: 15px;
+
+}
+
+.post-footer i:last-child {
+    padding-left: 55%;
+}
+
+.post-footer-text {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background: whitesmoke;
+}
+
+.post-footer-likes {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background: whitesmoke;
+
+}
